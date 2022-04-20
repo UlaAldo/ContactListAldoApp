@@ -11,6 +11,13 @@
 		C1602411280E4C4A00D4D47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1602410280E4C4A00D4D47E /* ContentView.swift */; };
 		C1602413280E4C4C00D4D47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1602412280E4C4C00D4D47E /* Assets.xcassets */; };
 		C1602416280E4C4C00D4D47E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1602415280E4C4C00D4D47E /* Preview Assets.xcassets */; };
+		C160241D280E558100D4D47E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160241C280E558100D4D47E /* DataManager.swift */; };
+		C160241F280E5AB400D4D47E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160241E280E5AB400D4D47E /* Person.swift */; };
+		C1602421280E5DF300D4D47E /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1602420280E5DF300D4D47E /* ContactList.swift */; };
+		C1602425280E927700D4D47E /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1602424280E927700D4D47E /* RowView.swift */; };
+		C1602427280E9F0100D4D47E /* DetailsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1602426280E9F0100D4D47E /* DetailsContact.swift */; };
+		C1602429280F9F3000D4D47E /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1602428280F9F3000D4D47E /* Numbers.swift */; };
+		C160242B280FAA2100D4D47E /* IconTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160242A280FAA2100D4D47E /* IconTextRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		C1602410280E4C4A00D4D47E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1602412280E4C4C00D4D47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1602415280E4C4C00D4D47E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C160241C280E558100D4D47E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C160241E280E5AB400D4D47E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C1602420280E5DF300D4D47E /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		C1602424280E927700D4D47E /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C1602426280E9F0100D4D47E /* DetailsContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContact.swift; sourceTree = "<group>"; };
+		C1602428280F9F3000D4D47E /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		C160242A280FAA2100D4D47E /* IconTextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				C160240E280E4C4A00D4D47E /* ContactListAldoAppApp.swift */,
 				C1602410280E4C4A00D4D47E /* ContentView.swift */,
+				C1602428280F9F3000D4D47E /* Numbers.swift */,
+				C1602426280E9F0100D4D47E /* DetailsContact.swift */,
+				C160242A280FAA2100D4D47E /* IconTextRow.swift */,
+				C1602420280E5DF300D4D47E /* ContactList.swift */,
+				C1602424280E927700D4D47E /* RowView.swift */,
+				C160241C280E558100D4D47E /* DataManager.swift */,
+				C160241E280E5AB400D4D47E /* Person.swift */,
 				C1602412280E4C4C00D4D47E /* Assets.xcassets */,
 				C1602414280E4C4C00D4D47E /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1602427280E9F0100D4D47E /* DetailsContact.swift in Sources */,
 				C1602411280E4C4A00D4D47E /* ContentView.swift in Sources */,
+				C1602425280E927700D4D47E /* RowView.swift in Sources */,
+				C160241D280E558100D4D47E /* DataManager.swift in Sources */,
+				C160242B280FAA2100D4D47E /* IconTextRow.swift in Sources */,
+				C1602429280F9F3000D4D47E /* Numbers.swift in Sources */,
+				C160241F280E5AB400D4D47E /* Person.swift in Sources */,
 				C160240F280E4C4A00D4D47E /* ContactListAldoAppApp.swift in Sources */,
+				C1602421280E5DF300D4D47E /* ContactList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
